@@ -1,13 +1,45 @@
-.header{}
+/*BODY*/
 
-.header__container{}
+/*HEADER*/
 
-.header__inner{}
+.header {}
 
-.header__device{}
+.header__container {}
 
-.header__download{}
+.header__inner {}
 
-.header__social{}
+.header__device {}
+
+.header__download {}
+
+.header__social {}
+
+/*NAVBAR*/
+
+.navbar {}
+
+.navbar__container {}
+
+/*NAVBAR MOBILE*/
+
+.navbar__mobile__header {}
+
+.navbar__mobile__button__collapsed {}
+
+.mobile__button__sr-only {}
+
+.mobile__button__icon-bar {}
+
+.navbar__collapsed {}
+
+.navbar__collapsed.active{}
+
+.navbar__collapsed__close{}
+
+.navbar__collapsed__open{}
 
 
+
+
+
+/*NAVBAR PC*/

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Office.</title>
 </head>
+
 <body>
+    <!--HEADER-->
     <div class="header">
         <div class="header__container">
             ::before
@@ -15,8 +18,53 @@
                 <div class="header__download"></div>
                 <div class="header__social"></div>
             </div>
+            ::after
         </div>
     </div>
-    
+    <!--NAVBAR-->
+    <nav class="navbar">
+        ::before
+        <div class="navbar__container">
+            ::before
+            <!--NAVBAR MOBILE-->
+            <div class="navbar__mobile__header">
+                <button type="button" class="navbar__mobile__button__collapsed">
+                    <!--Is this sr-only a bootstrap only feature-->
+                    <span class="mobile__button__sr-only"></span>
+                    <span class="mobile__button__icon-bar"></span>
+                    <span class="mobile__button__icon-bar"></span>
+                    <span class="mobile__button__icon-bar"></span>
+                </button>
+                ::after
+            </div>
+            <div class="navbar__collapsed">
+            <!-- this needs to be in here somehow <div class="navbar__collapsed.active"> -->
+                ::before
+                <!--below might need aria-label="close" -->
+                <button type="button" class="navbar__collapsed__close">
+                    <span aria-hidden="true"></span>
+                </button>
+                <ul class="navbar__collapsed__open">
+                    ::before
+                    <li>
+                        <a href=""></a>
+                    </li>
+                    <li>
+                        <p>
+                            <a href=""></a>
+                        </p>
+                    </li>
+                    ::after
+                </ul>
+                ::after
+            </div>
+            ::after
+        </div>
+        ::after
+    </nav>
+
+
+
 </body>
+
 </html>

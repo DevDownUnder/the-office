@@ -32,14 +32,26 @@
 
 .navbar__collapsed {}
 
-.navbar__collapsed.active{}
+.navbar__collapsed.active {}
 
-.navbar__collapsed__close{}
+.navbar__collapsed__close {}
 
-.navbar__collapsed__open{}
+.navbar__collapsed__open {}
 
-.collapsed__open__button{}
+.collapsed__open__button {}
 
+/*SECTION*/
 
+.section {}
 
-/*NAVBAR PC*/
+.section__background__title {}
+
+.section__overlay {}
+
+.title__container {}
+
+.title__row {}
+
+.section__title {}
+
+.section__title__button {}

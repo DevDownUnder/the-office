@@ -1,6 +1,29 @@
-/*BODY*/
+/*HTML & BODY*/
+/*Link fonts*/
 
-/*HEADER*/
+html{
+
+}
+
+/* *means ALL. so all ::after, ::before will inherit below*/
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+
+    padding-top: 0;
+    font-family: Nunito Sans,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857;
+    color: #585858;
+    background-color: #fff;
+    margin: 0;
+}
+
+/*HEADER
 
 .header {}
 
@@ -14,11 +37,20 @@
 
 .header__social {}
 
+*/
+
 /*NAVBAR*/
 
 .navbar {}
 
-.navbar__container {}
+.navbar__container {
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 /*NAVBAR MOBILE*/
 
